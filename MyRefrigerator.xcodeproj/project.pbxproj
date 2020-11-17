@@ -7,20 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		490028C42563FE8A006AD629 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490028C22563FE8A006AD629 /* Product.swift */; };
+		490028C52563FE8A006AD629 /* StoredProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490028C32563FE8A006AD629 /* StoredProduct.swift */; };
+		490028C92563FED1006AD629 /* RefrigeratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490028C72563FED1006AD629 /* RefrigeratorView.swift */; };
+		490028CA2563FED1006AD629 /* RefrigeratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490028C82563FED1006AD629 /* RefrigeratorViewController.swift */; };
+		490028D325640400006AD629 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490028D225640400006AD629 /* ProductTableViewCell.swift */; };
+		490028D62564057D006AD629 /* ModuleAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490028D52564057D006AD629 /* ModuleAssembly.swift */; };
+		493DA904255EBAAF008C998F /* RefrigeratorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493DA903255EBAAF008C998F /* RefrigeratorService.swift */; };
+		493DA908255EBC3C008C998F /* RefrigeratorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493DA907255EBC3C008C998F /* RefrigeratorPresenter.swift */; };
 		49B4666E255D925F005B3CD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B4666D255D925F005B3CD9 /* AppDelegate.swift */; };
 		49B46670255D925F005B3CD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B4666F255D925F005B3CD9 /* SceneDelegate.swift */; };
-		49B46672255D925F005B3CD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B46671255D925F005B3CD9 /* ViewController.swift */; };
-		49B46675255D925F005B3CD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B46673255D925F005B3CD9 /* Main.storyboard */; };
 		49B46677255D9261005B3CD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49B46676255D9261005B3CD9 /* Assets.xcassets */; };
 		49B4667A255D9261005B3CD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B46678255D9261005B3CD9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		490028C22563FE8A006AD629 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		490028C32563FE8A006AD629 /* StoredProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoredProduct.swift; sourceTree = "<group>"; };
+		490028C72563FED1006AD629 /* RefrigeratorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefrigeratorView.swift; sourceTree = "<group>"; };
+		490028C82563FED1006AD629 /* RefrigeratorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefrigeratorViewController.swift; sourceTree = "<group>"; };
+		490028D225640400006AD629 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		490028D52564057D006AD629 /* ModuleAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleAssembly.swift; sourceTree = "<group>"; };
+		493DA903255EBAAF008C998F /* RefrigeratorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefrigeratorService.swift; sourceTree = "<group>"; };
+		493DA907255EBC3C008C998F /* RefrigeratorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefrigeratorPresenter.swift; sourceTree = "<group>"; };
 		49B4666A255D925F005B3CD9 /* MyRefrigerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRefrigerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B4666D255D925F005B3CD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49B4666F255D925F005B3CD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		49B46671255D925F005B3CD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		49B46674255D925F005B3CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		49B46676255D9261005B3CD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49B46679255D9261005B3CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49B4667B255D9261005B3CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +49,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		490028C02563FE63006AD629 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				490028C22563FE8A006AD629 /* Product.swift */,
+				490028C32563FE8A006AD629 /* StoredProduct.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		490028C12563FE6A006AD629 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				490028C72563FED1006AD629 /* RefrigeratorView.swift */,
+				490028C82563FED1006AD629 /* RefrigeratorViewController.swift */,
+				490028D225640400006AD629 /* ProductTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		493DA8F4255EB9AD008C998F /* Refrigerator Module */ = {
+			isa = PBXGroup;
+			children = (
+				490028C02563FE63006AD629 /* Model */,
+				490028C12563FE6A006AD629 /* View */,
+				493DA901255EB9F4008C998F /* Presenter */,
+			);
+			path = "Refrigerator Module";
+			sourceTree = "<group>";
+		};
+		493DA901255EB9F4008C998F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				493DA907255EBC3C008C998F /* RefrigeratorPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		493DA902255EBA94008C998F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				493DA903255EBAAF008C998F /* RefrigeratorService.swift */,
+				490028D52564057D006AD629 /* ModuleAssembly.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		49B46661255D925F005B3CD9 = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +116,8 @@
 			children = (
 				49B4666D255D925F005B3CD9 /* AppDelegate.swift */,
 				49B4666F255D925F005B3CD9 /* SceneDelegate.swift */,
-				49B46671255D925F005B3CD9 /* ViewController.swift */,
-				49B46673255D925F005B3CD9 /* Main.storyboard */,
+				493DA902255EBA94008C998F /* Service */,
+				493DA8F4255EB9AD008C998F /* Refrigerator Module */,
 				49B46676255D9261005B3CD9 /* Assets.xcassets */,
 				49B46678255D9261005B3CD9 /* LaunchScreen.storyboard */,
 				49B4667B255D9261005B3CD9 /* Info.plist */,
@@ -126,7 +184,6 @@
 			files = (
 				49B4667A255D9261005B3CD9 /* LaunchScreen.storyboard in Resources */,
 				49B46677255D9261005B3CD9 /* Assets.xcassets in Resources */,
-				49B46675255D925F005B3CD9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +194,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49B46672255D925F005B3CD9 /* ViewController.swift in Sources */,
+				490028C92563FED1006AD629 /* RefrigeratorView.swift in Sources */,
+				490028D62564057D006AD629 /* ModuleAssembly.swift in Sources */,
+				490028C52563FE8A006AD629 /* StoredProduct.swift in Sources */,
+				490028D325640400006AD629 /* ProductTableViewCell.swift in Sources */,
 				49B4666E255D925F005B3CD9 /* AppDelegate.swift in Sources */,
+				493DA908255EBC3C008C998F /* RefrigeratorPresenter.swift in Sources */,
+				490028CA2563FED1006AD629 /* RefrigeratorViewController.swift in Sources */,
+				490028C42563FE8A006AD629 /* Product.swift in Sources */,
 				49B46670255D925F005B3CD9 /* SceneDelegate.swift in Sources */,
+				493DA904255EBAAF008C998F /* RefrigeratorService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		49B46673255D925F005B3CD9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				49B46674255D925F005B3CD9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		49B46678255D9261005B3CD9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
